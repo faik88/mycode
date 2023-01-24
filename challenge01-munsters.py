@@ -21,3 +21,5 @@ munsters["episodes"] = 70
 
 print(munsters)
 
+print(munsters.get("startDate"))
+
