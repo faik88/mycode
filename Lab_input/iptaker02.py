@@ -1,14 +1,20 @@
 #!/usr/bin/env python3
-
-"""xyz """
-
+"""Alta3 Research | RZFeeser
+   CHALLENGE 01 - Solution"""    
 
 def main():
-    user_input = input("Pls enter an IP v4 address:")
-    user_input_vendor = input("pls enter Vendor Name:")
-    print("You told me the IPv4 address is:" + user_input + "and the vendor is:" + user_input_vendor)
-    
-       
-main()
 
+    user_input = input("Please enter an IPv4 IP address: ")
+    
+    ## the line below creates a single string that is passed to print()
+    # print("You told me the IPv4 address is:" + user_input)
+    
+    ## print() can be given a series of objects separated by a comma
+    print("You told me the IPv4 address is:", user_input)
+    
+    # asking user for 'vendor name'
+    vendor = input("Please input the vendor name: ")
+    print(vendor)
+
+main()
 
